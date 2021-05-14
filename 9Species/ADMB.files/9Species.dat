@@ -7,10 +7,10 @@
 # Trophic 
  1 
 
-# nsp 
+# nsp (number of species)
  9 
 
-# nFIC 
+# nFIC (number of Fishery Independent Catch surveys?)
  2 
 
 # o 
@@ -19,51 +19,52 @@
 # p 
  1e-30 
 
-# Nint 
+# Nint (Number of species interactions)
  27 
 
-# Binsize 
+# Binsize (Number of size bins)
  5 
 
-# EcoB.mil.kg 
+# EcoB.mil.kg (Total ecosystem biomass)
  15000 
 
-# Owt 
+# Owt (Weight for the other food penalty term, Open)
  10 
 
-# Fyr 
+# Fyr (First year in model by species)
  1978 1978 1978 1978 1978 1978 1978 1978 1978 
 
-# Lyr 
+# Lyr (Last year in model by species)
  2007 2007 2007 2007 2007 2007 2007 2007 2007 
 
-# FHfyr 
+# FHfyr (Food habit first year)
  1978 
 
-# FHlyr 
+# FHlyr (Food habit last year)
  2007 
 
-# Nage 
+# Nage (Maximum age by species)
  31 21 10 10 10 9 7 6 6 
 
 # Mnseg 
  1 
 
-# Nseg 
+# Nseg (Number of segments [what is a segment?])
  1 1 1 1 1 1 1 1 1 
 
-# agePR 
+# agePR (Age at partial recruitment)
  13 1 1 1 1 1 1 1 2 
 
-# ageFR 
+# ageFR (Age at full recruitment)
  15 4 7 4 6 8 3 3 3 
 
-# ficFR 
+# ficFR (Age of recruit to fishery survey)
  4 4 6 3 2 6 4 2 2 
 
-# FICs_lage 
+# FICs_lage (Survey selectivity for the last age class; 1 = species becomes fully recruited to the survey
  1 1 1 1 1 1 1 1 1 
 
+# Set estimation phases
 # aAge1ph 
  -1 -1 1 1 1 1 1 1 1 
 
@@ -85,24 +86,25 @@
 # Yr1ph 
  -1 -1 1 1 1 1 1 1 1 
 
-# Pred 
+# Pred (Predator species in each interaction)
  4 4 4 4 4 8 8 8 3 3 3 3 7 7 7 7 6 6 6 1 1 1 1 1 2 2 2 
 
-# Prey 
+# Prey (Prey species in each interaction)
  4 8 9 5 7 8 9 5 4 8 9 5 7 8 9 5 5 8 9 8 9 5 4 3 8 9 5 
 
-# Rhoph 
+# Rhoph (Is Rho estimable for the interaction 1=yes)
  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 
 # M1yr 
  1978 
 
-# TCwt 
+# TCwt (Total annual commercial catch in weight by species)
  150 150 400 150 100 150 350 250 75 
 
-# CPwt 
+# CPwt (Commercial catch proportions at age)
  35 0 75 50 10 15 30 50 10 
 
+# Bwt, Ywt, Rwt are Penalty Terms
 # Bwt 
  1e+15 1e+15 1e+15 1e+15 1e+15 1e+15 1e+15 1e+15 1e+15 
 
@@ -112,7 +114,7 @@
 # Rwt 
  100 100 100 0 100 100 100 100 1e+06 
 
-# FHwt 
+# FHwt (Food habits proportions by weight by species)
  35 45 10 15 10 10 10 10 10 
 
 # Bthres 
@@ -854,6 +856,7 @@
 3.05122 7.43 6.22 2.19 0.603316 0.409726 2.85481 3.97702 34.3918 7.54315 14.7631 9.75526 9.2 22.83 36.3321 72.24 34.7663 89.9575 65.0637 57.251 51.69 86.9642 33.27 35.1353 28.1099 84.6576 47.8811 19.7595 27.1721 17.1653
 0.4411 0.03 0.0262 0.08 0.203 0.0925 1.0926 1.9354 0.9316 9.54 11.55 14.25 13.98 20.74 56.49 16.8 13.61 125.74 37.66 37.05 20.63 13.51 20.65 25.31 77.92 94.77 40.69 25.7 28.15 22.96
 
+# M1 (Natural mortality rate excluding predation) for each species 
 # M1.SDog 
  0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 0.092 
 
